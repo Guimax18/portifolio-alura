@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --branco-principal: #ffff;
+    --cinza-ecundario: #F6F6F6;
+    --botao-azul: #22D4FD;
+    --background: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--branco-principal);
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+}
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+
+.titulo-destaque{
+    color: var(--botao-azul);
+}
+
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo__redes {
+    font-family: Krona One, sans-serif;
+    font: 400;
+    font-size: 24px;
+}
+
+.apresentacao__redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__links{
+    width: 378px;
+    text-align: center;
+    border: 2px solid var(--botao-azul);
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container__rodape {
+    background-color: var(--botao-azul);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__rodape h4 {
+    color: var(--background);
+    font-family: Montserrat;
+    font-size: 24px;
+    font: 400;
+}
